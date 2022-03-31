@@ -17,7 +17,7 @@ namespace PrimeiraAppMVC.Controllers
         {
             int[] nm = new int[5];
             int[] estr = new int[2];
-
+            
             Random rnd = new Random();
 
             int num;
@@ -55,6 +55,8 @@ namespace PrimeiraAppMVC.Controllers
             //    ViewBag.Hour = "Bom dia!";
             //}
             return View("MyView");
+
+            //Conclusão da ficha
         }
 
         public IActionResult Privacy()
